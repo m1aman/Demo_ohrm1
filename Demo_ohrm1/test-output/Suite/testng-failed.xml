@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="PIM_module1.Emp_remove">
+        <methods>
+          <include name="Empremove1"/>
+          <include name="Closeapp"/>
+          <include name="Openapp"/>
+        </methods>
+      </class> <!-- PIM_module1.Emp_remove -->
+      <class name="PIM_module1.Emp_login">
+        <methods>
+          <include name="Closeapp"/>
+          <include name="EmpLogin1"/>
+          <include name="Openapp"/>
+        </methods>
+      </class> <!-- PIM_module1.Emp_login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

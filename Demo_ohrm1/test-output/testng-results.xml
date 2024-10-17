@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-01T11:07:33 IST" name="Default suite" finished-at="2024-10-01T11:08:10 IST" duration-ms="36842">
+    <groups>
+    </groups>
+    <test started-at="2024-10-01T11:07:33 IST" name="Default test" finished-at="2024-10-01T11:08:10 IST" duration-ms="36842">
+      <class name="pim1_integration.PIMrun_Integration2">
+        <test-method is-config="true" signature="Openapp()[pri:0, instance:pim1_integration.PIMrun_Integration2@5b218417]" started-at="2024-10-01T11:07:33 IST" name="Openapp" finished-at="2024-10-01T11:07:48 IST" duration-ms="14787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openapp -->
+        <test-method signature="PIMsystem1()[pri:0, instance:pim1_integration.PIMrun_Integration2@5b218417]" started-at="2024-10-01T11:07:48 IST" name="PIMsystem1" finished-at="2024-10-01T11:08:04 IST" duration-ms="16865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PIMsystem1 -->
+        <test-method is-config="true" signature="Closeapp(org.testng.ITestResult)[pri:0, instance:pim1_integration.PIMrun_Integration2@5b218417]" started-at="2024-10-01T11:08:04 IST" name="Closeapp" finished-at="2024-10-01T11:08:10 IST" duration-ms="5153" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PIMsystem1 status=SUCCESS method=PIMrun_Integration2.PIMsystem1()[pri:0, instance:pim1_integration.PIMrun_Integration2@5b218417] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closeapp -->
+      </class> <!-- pim1_integration.PIMrun_Integration2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
